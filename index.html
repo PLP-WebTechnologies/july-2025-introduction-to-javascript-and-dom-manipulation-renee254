@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>📚 Book App</h1>
+
+  <!-- Part 1 -->
+  <h2>Check Book Length</h2>
+  <input id="pages" type="number" placeholder="Enter pages">
+  <button onclick="checkBook()">Check</button>
+  <p id="bookMsg"></p>
+
+  <!-- Part 2 -->
+  <h2>Book Functions</h2>
+  <button onclick="showBook()">Show Favorite</button>
+  <p id="favBook"></p>
+
+  <!-- Part 3 -->
+  <h2>Book List</h2>
+  <button onclick="listBooks()">List Books</button>
+  <ul id="bookList"></ul>
+
+  <!-- Part 4 -->
+  <h2>DOM Actions</h2>
+  <button onclick="toggleTheme()">Toggle Theme</button>
+  <button onclick="addBook()">Add Book</button>
+  <ul id="dynamicBooks"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
